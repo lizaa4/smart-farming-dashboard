@@ -5,8 +5,7 @@ import seaborn as sns
 
 st.title("Smart Farming Dashboard")
 
-# Load data
-df = pd.read_csv("../outputs/cleaned_data.csv")
+df = pd.read_csv("outputs/cleaned_data.csv")
 
 st.subheader("Preview Data")
 st.dataframe(df)
